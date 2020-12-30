@@ -1,0 +1,7 @@
+<div style="background-color: white" class="quoteBox">
+  <div class="fadeIn" key="{Math.random()}">
+    <h1 id="quote">"{{ this.quote }}"</h1>
+    <h5 id="author">-{{ this.author ? this.author : "Unknown" }}-</h5>
+  </div>
+  <button id="newQuote" (click)="this.handleClick()">New quote</button>
+</div>
